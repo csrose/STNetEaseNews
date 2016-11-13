@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2B12B48523DDCE7BEB2F54 /* Pods_STNetEaseNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35726B57F5AEB756BF73718C /* Pods_STNetEaseNewsUITests.framework */; };
+		CB0A33601DD2B3C4008B2E5F /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = CB0A335E1DD2B3C4008B2E5F /* content.css */; };
+		CB0A33611DD2B3C4008B2E5F /* ipad_content.css in Resources */ = {isa = PBXBuildFile; fileRef = CB0A335F1DD2B3C4008B2E5F /* ipad_content.css */; };
+		CB0A33641DD2B473008B2E5F /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB0A33621DD2B473008B2E5F /* alert.wav */; };
+		CB0A33651DD2B473008B2E5F /* dropCoin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB0A33631DD2B473008B2E5F /* dropCoin.mp3 */; };
+		CB2335301DD1D84E00079DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB23352F1DD1D84E00079DB9 /* Assets.xcassets */; };
+		CB2E090E1DD4745B00F55E11 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2E090D1DD4745B00F55E11 /* Live.storyboard */; };
+		CB2E09101DD4746600F55E11 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2E090F1DD4746600F55E11 /* Me.storyboard */; };
+		CB2E09141DD474B700F55E11 /* Topic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2E09131DD474B700F55E11 /* Topic.storyboard */; };
+		CB7BDA5C1DD2B4F500F5E591 /* achievement_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA521DD2B4F500F5E591 /* achievement_animation.json */; };
+		CB7BDA5D1DD2B4F500F5E591 /* appad_default.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA531DD2B4F500F5E591 /* appad_default.json */; };
+		CB7BDA5E1DD2B4F500F5E591 /* ipad_page_layouts.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA541DD2B4F500F5E591 /* ipad_page_layouts.json */; };
+		CB7BDA5F1DD2B4F500F5E591 /* iphone_mashup_layouts.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA551DD2B4F500F5E591 /* iphone_mashup_layouts.json */; };
+		CB7BDA601DD2B4F500F5E591 /* LikeAnimationParameter.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA561DD2B4F500F5E591 /* LikeAnimationParameter.json */; };
+		CB7BDA611DD2B4F500F5E591 /* mission_list.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA571DD2B4F500F5E591 /* mission_list.json */; };
+		CB7BDA621DD2B4F500F5E591 /* theme-night.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA581DD2B4F500F5E591 /* theme-night.json */; };
+		CB7BDA631DD2B4F500F5E591 /* theme.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA591DD2B4F500F5E591 /* theme.json */; };
+		CB7BDA641DD2B4F500F5E591 /* topic_news_ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA5A1DD2B4F500F5E591 /* topic_news_ipad.json */; };
+		CB7BDA651DD2B4F500F5E591 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA5B1DD2B4F500F5E591 /* topic_news.json */; };
+		CB9D3CB21DD89AE100629CA2 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9D3CB11DD89AE100629CA2 /* News.storyboard */; };
+		CBA1E5A11DD2A87000003970 /* contentview_hd_loading_black.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBA1E59E1DD2A87000003970 /* contentview_hd_loading_black.gif */; };
+		CBA1E5A21DD2A87000003970 /* contentview_hd_loading_black@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBA1E59F1DD2A87000003970 /* contentview_hd_loading_black@2x.gif */; };
+		CBA1E5A31DD2A87000003970 /* contentview_hd_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBA1E5A01DD2A87000003970 /* contentview_hd_loading.gif */; };
+		CBD2F32B1DD892BC00B0D61A /* iOSAppBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD2F32A1DD892BC00B0D61A /* iOSAppBase.framework */; };
 		CBD89CEE1DD187B9004F553E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD89CED1DD187B9004F553E /* AppDelegate.swift */; };
 		CBD89D051DD187B9004F553E /* STNetEaseNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD89D041DD187B9004F553E /* STNetEaseNewsTests.swift */; };
 		CBD89D101DD187B9004F553E /* STNetEaseNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD89D0F1DD187B9004F553E /* STNetEaseNewsUITests.swift */; };
 		CBD89D451DD18881004F553E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD89D441DD18881004F553E /* Main.storyboard */; };
 		CBD89D4B1DD18944004F553E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD89D4A1DD18944004F553E /* LaunchScreen.storyboard */; };
-		CBD89D4E1DD189BE004F553E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD89D4D1DD189BE004F553E /* Assets.xcassets */; };
+		D7DDA8BD44B6534708346C39 /* Pods_STNetEaseNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4465D531E267314F6C320CE8 /* Pods_STNetEaseNews.framework */; };
+		FDDEA18893CCD51A0541B09A /* Pods_STNetEaseNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06407084D686AE954CBE2F7C /* Pods_STNetEaseNewsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +58,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06407084D686AE954CBE2F7C /* Pods_STNetEaseNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STNetEaseNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		112AF4C1D2BCD42714A57BA3 /* Pods-STNetEaseNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNewsTests/Pods-STNetEaseNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35726B57F5AEB756BF73718C /* Pods_STNetEaseNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STNetEaseNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B586A6F28558231CAF49FC /* Pods-STNetEaseNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNewsUITests/Pods-STNetEaseNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4465D531E267314F6C320CE8 /* Pods_STNetEaseNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STNetEaseNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475CB0916B6E13FF01ABB158 /* Pods-STNetEaseNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNews/Pods-STNetEaseNews.release.xcconfig"; sourceTree = "<group>"; };
+		60FEF171E04E30514F8F9550 /* Pods-STNetEaseNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNewsTests/Pods-STNetEaseNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7BD65D06B877F8BD3FE968B /* Pods-STNetEaseNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNews/Pods-STNetEaseNews.debug.xcconfig"; sourceTree = "<group>"; };
+		C9214C786749003AA7893CC2 /* Pods-STNetEaseNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNewsUITests/Pods-STNetEaseNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB0A335B1DD2B36C008B2E5F /* iOSAppBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSAppBase.framework; path = "../iOSAppBase/iOSAppBase/build/Debug-iphoneos/iOSAppBase.framework"; sourceTree = "<group>"; };
+		CB0A335E1DD2B3C4008B2E5F /* content.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
+		CB0A335F1DD2B3C4008B2E5F /* ipad_content.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ipad_content.css; sourceTree = "<group>"; };
+		CB0A33621DD2B473008B2E5F /* alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert.wav; sourceTree = "<group>"; };
+		CB0A33631DD2B473008B2E5F /* dropCoin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dropCoin.mp3; sourceTree = "<group>"; };
+		CB0A33661DD2B489008B2E5F /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		CB0A33671DD2B489008B2E5F /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		CB0A33681DD2B489008B2E5F /* StencilStd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = StencilStd.ttf; sourceTree = "<group>"; };
+		CB23352F1DD1D84E00079DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2E090D1DD4745B00F55E11 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		CB2E090F1DD4746600F55E11 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		CB2E09131DD474B700F55E11 /* Topic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Topic.storyboard; sourceTree = "<group>"; };
+		CB7BDA521DD2B4F500F5E591 /* achievement_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievement_animation.json; sourceTree = "<group>"; };
+		CB7BDA531DD2B4F500F5E591 /* appad_default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appad_default.json; sourceTree = "<group>"; };
+		CB7BDA541DD2B4F500F5E591 /* ipad_page_layouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ipad_page_layouts.json; sourceTree = "<group>"; };
+		CB7BDA551DD2B4F500F5E591 /* iphone_mashup_layouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iphone_mashup_layouts.json; sourceTree = "<group>"; };
+		CB7BDA561DD2B4F500F5E591 /* LikeAnimationParameter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LikeAnimationParameter.json; sourceTree = "<group>"; };
+		CB7BDA571DD2B4F500F5E591 /* mission_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mission_list.json; sourceTree = "<group>"; };
+		CB7BDA581DD2B4F500F5E591 /* theme-night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "theme-night.json"; sourceTree = "<group>"; };
+		CB7BDA591DD2B4F500F5E591 /* theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = theme.json; sourceTree = "<group>"; };
+		CB7BDA5A1DD2B4F500F5E591 /* topic_news_ipad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news_ipad.json; sourceTree = "<group>"; };
+		CB7BDA5B1DD2B4F500F5E591 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		CB9D3CB11DD89AE100629CA2 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = News.storyboard; path = STNetEaseNews/Section/News/News.storyboard; sourceTree = SOURCE_ROOT; };
+		CBA1E59E1DD2A87000003970 /* contentview_hd_loading_black.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = contentview_hd_loading_black.gif; sourceTree = "<group>"; };
+		CBA1E59F1DD2A87000003970 /* contentview_hd_loading_black@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "contentview_hd_loading_black@2x.gif"; sourceTree = "<group>"; };
+		CBA1E5A01DD2A87000003970 /* contentview_hd_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = contentview_hd_loading.gif; sourceTree = "<group>"; };
+		CBA5EDA81DD2B14200A1B3AC /* STNetEaseNews-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STNetEaseNews-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBD2F32A1DD892BC00B0D61A /* iOSAppBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSAppBase.framework; path = "../../Library/Developer/Xcode/DerivedData/STNetEaseNews-gaodsvfayjsxrlbkpxphbrlfbcbr/Build/Products/Debug-iphonesimulator/iOSAppBase.framework"; sourceTree = "<group>"; };
 		CBD89CEA1DD187B9004F553E /* STNetEaseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STNetEaseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD89CED1DD187B9004F553E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		CBD89D001DD187B9004F553E /* STNetEaseNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STNetEaseNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +106,6 @@
 		CBD89D421DD1883C004F553E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBD89D441DD18881004F553E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CBD89D4A1DD18944004F553E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBD89D4D1DD189BE004F553E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD2F32B1DD892BC00B0D61A /* iOSAppBase.framework in Frameworks */,
+				D7DDA8BD44B6534708346C39 /* Pods_STNetEaseNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDEA18893CCD51A0541B09A /* Pods_STNetEaseNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +130,184 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2B12B48523DDCE7BEB2F54 /* Pods_STNetEaseNewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96F270831522BA8E97A233CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7BD65D06B877F8BD3FE968B /* Pods-STNetEaseNews.debug.xcconfig */,
+				475CB0916B6E13FF01ABB158 /* Pods-STNetEaseNews.release.xcconfig */,
+				112AF4C1D2BCD42714A57BA3 /* Pods-STNetEaseNewsTests.debug.xcconfig */,
+				60FEF171E04E30514F8F9550 /* Pods-STNetEaseNewsTests.release.xcconfig */,
+				41B586A6F28558231CAF49FC /* Pods-STNetEaseNewsUITests.debug.xcconfig */,
+				C9214C786749003AA7893CC2 /* Pods-STNetEaseNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB0A335D1DD2B3B7008B2E5F /* Css */ = {
+			isa = PBXGroup;
+			children = (
+				CB0A335E1DD2B3C4008B2E5F /* content.css */,
+				CB0A335F1DD2B3C4008B2E5F /* ipad_content.css */,
+			);
+			path = Css;
+			sourceTree = "<group>";
+		};
+		CB2E08FD1DD4744B00F55E11 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E08FE1DD4744B00F55E11 /* Controller */,
+				CB2E08FF1DD4744B00F55E11 /* Model */,
+				CB2E09001DD4744B00F55E11 /* View */,
+				CB2E090D1DD4745B00F55E11 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CB2E08FE1DD4744B00F55E11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB2E08FF1DD4744B00F55E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB2E09001DD4744B00F55E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB2E09011DD4744B00F55E11 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E09021DD4744B00F55E11 /* Controller */,
+				CB2E09031DD4744B00F55E11 /* Model */,
+				CB2E09041DD4744B00F55E11 /* View */,
+				CB2E090F1DD4746600F55E11 /* Me.storyboard */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		CB2E09021DD4744B00F55E11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB2E09031DD4744B00F55E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB2E09041DD4744B00F55E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB2E09051DD4744B00F55E11 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E09061DD4744B00F55E11 /* Controller */,
+				CB2E09071DD4744B00F55E11 /* Model */,
+				CB2E09081DD4744B00F55E11 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CB2E09061DD4744B00F55E11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB2E09071DD4744B00F55E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB2E09081DD4744B00F55E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB2E09091DD4744B00F55E11 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E090A1DD4744B00F55E11 /* Controller */,
+				CB2E090B1DD4744B00F55E11 /* Model */,
+				CB2E090C1DD4744B00F55E11 /* View */,
+				CB2E09131DD474B700F55E11 /* Topic.storyboard */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		CB2E090A1DD4744B00F55E11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB2E090B1DD4744B00F55E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB2E090C1DD4744B00F55E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB86FFFA7DFE776C396B7D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2F32A1DD892BC00B0D61A /* iOSAppBase.framework */,
+				CB0A335B1DD2B36C008B2E5F /* iOSAppBase.framework */,
+				4465D531E267314F6C320CE8 /* Pods_STNetEaseNews.framework */,
+				06407084D686AE954CBE2F7C /* Pods_STNetEaseNewsTests.framework */,
+				35726B57F5AEB756BF73718C /* Pods_STNetEaseNewsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA1E59D1DD2A85B00003970 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1E59E1DD2A87000003970 /* contentview_hd_loading_black.gif */,
+				CBA1E59F1DD2A87000003970 /* contentview_hd_loading_black@2x.gif */,
+				CBA1E5A01DD2A87000003970 /* contentview_hd_loading.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 		CBD89CE11DD187B9004F553E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +315,8 @@
 				CBD89D031DD187B9004F553E /* STNetEaseNewsTests */,
 				CBD89D0E1DD187B9004F553E /* STNetEaseNewsUITests */,
 				CBD89CEB1DD187B9004F553E /* Products */,
+				96F270831522BA8E97A233CE /* Pods */,
+				CB86FFFA7DFE776C396B7D82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +445,7 @@
 			children = (
 				CBD89CED1DD187B9004F553E /* AppDelegate.swift */,
 				CBD89D441DD18881004F553E /* Main.storyboard */,
+				CB9D3CB11DD89AE100629CA2 /* News.storyboard */,
 				CBD89D4A1DD18944004F553E /* LaunchScreen.storyboard */,
 			);
 			path = Main;
@@ -215,7 +454,9 @@
 		CBD89D281DD187D1004F553E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				CBD89D4D1DD189BE004F553E /* Assets.xcassets */,
+				CB23352F1DD1D84E00079DB9 /* Assets.xcassets */,
+				CB0A335D1DD2B3B7008B2E5F /* Css */,
+				CBA1E59D1DD2A85B00003970 /* Gif */,
 				CBD89D4C1DD18996004F553E /* File */,
 				CBD89D291DD187D1004F553E /* Audio */,
 				CBD89D2B1DD187D1004F553E /* Font */,
@@ -229,6 +470,8 @@
 		CBD89D291DD187D1004F553E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				CB0A33621DD2B473008B2E5F /* alert.wav */,
+				CB0A33631DD2B473008B2E5F /* dropCoin.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -236,6 +479,9 @@
 		CBD89D2B1DD187D1004F553E /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				CB0A33661DD2B489008B2E5F /* DS-DIGI.TTF */,
+				CB0A33671DD2B489008B2E5F /* DS-DIGIB.TTF */,
+				CB0A33681DD2B489008B2E5F /* StencilStd.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -250,6 +496,16 @@
 		CBD89D2D1DD187D1004F553E /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				CB7BDA521DD2B4F500F5E591 /* achievement_animation.json */,
+				CB7BDA531DD2B4F500F5E591 /* appad_default.json */,
+				CB7BDA541DD2B4F500F5E591 /* ipad_page_layouts.json */,
+				CB7BDA551DD2B4F500F5E591 /* iphone_mashup_layouts.json */,
+				CB7BDA561DD2B4F500F5E591 /* LikeAnimationParameter.json */,
+				CB7BDA571DD2B4F500F5E591 /* mission_list.json */,
+				CB7BDA581DD2B4F500F5E591 /* theme-night.json */,
+				CB7BDA591DD2B4F500F5E591 /* theme.json */,
+				CB7BDA5A1DD2B4F500F5E591 /* topic_news_ipad.json */,
+				CB7BDA5B1DD2B4F500F5E591 /* topic_news.json */,
 			);
 			path = Json;
 			sourceTree = "<group>";
@@ -264,6 +520,10 @@
 		CBD89D2F1DD187D1004F553E /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				CB2E08FD1DD4744B00F55E11 /* Live */,
+				CB2E09011DD4744B00F55E11 /* Me */,
+				CB2E09051DD4744B00F55E11 /* News */,
+				CB2E09091DD4744B00F55E11 /* Topic */,
 				CBD89D301DD187D1004F553E /* Advert */,
 				CBD89D341DD187D1004F553E /* Base */,
 				CBD89D381DD187D1004F553E /* Guide */,
@@ -399,6 +659,7 @@
 		CBD89D401DD187D1004F553E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBA5EDA81DD2B14200A1B3AC /* STNetEaseNews-Bridging-Header.h */,
 				CBD89D421DD1883C004F553E /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -425,9 +686,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBD89D141DD187B9004F553E /* Build configuration list for PBXNativeTarget "STNetEaseNews" */;
 			buildPhases = (
+				EDE4127910DDDDDE668CC28F /* [CP] Check Pods Manifest.lock */,
 				CBD89CE61DD187B9004F553E /* Sources */,
 				CBD89CE71DD187B9004F553E /* Frameworks */,
 				CBD89CE81DD187B9004F553E /* Resources */,
+				E2FD9D1A025416081191CB43 /* [CP] Embed Pods Frameworks */,
+				083632E929C413EF1C408BF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -442,9 +706,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBD89D171DD187B9004F553E /* Build configuration list for PBXNativeTarget "STNetEaseNewsTests" */;
 			buildPhases = (
+				26AF1BEDC9541458F08E486B /* [CP] Check Pods Manifest.lock */,
 				CBD89CFC1DD187B9004F553E /* Sources */,
 				CBD89CFD1DD187B9004F553E /* Frameworks */,
 				CBD89CFE1DD187B9004F553E /* Resources */,
+				3DCB7520699FDAF33E690125 /* [CP] Embed Pods Frameworks */,
+				EF8A68801AE011F67DE8416D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -460,9 +727,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBD89D1A1DD187B9004F553E /* Build configuration list for PBXNativeTarget "STNetEaseNewsUITests" */;
 			buildPhases = (
+				F218E4036E7663BB944BA988 /* [CP] Check Pods Manifest.lock */,
 				CBD89D071DD187B9004F553E /* Sources */,
 				CBD89D081DD187B9004F553E /* Frameworks */,
 				CBD89D091DD187B9004F553E /* Resources */,
+				810019342D498005DBC52AAD /* [CP] Embed Pods Frameworks */,
+				35029BA4831043571DF3639D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -486,6 +756,7 @@
 				TargetAttributes = {
 					CBD89CE91DD187B9004F553E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					CBD89CFF1DD187B9004F553E = {
@@ -525,9 +796,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7BDA5F1DD2B4F500F5E591 /* iphone_mashup_layouts.json in Resources */,
+				CBA1E5A11DD2A87000003970 /* contentview_hd_loading_black.gif in Resources */,
+				CB7BDA5E1DD2B4F500F5E591 /* ipad_page_layouts.json in Resources */,
 				CBD89D4B1DD18944004F553E /* LaunchScreen.storyboard in Resources */,
-				CBD89D4E1DD189BE004F553E /* Assets.xcassets in Resources */,
+				CB0A33641DD2B473008B2E5F /* alert.wav in Resources */,
+				CB2E09141DD474B700F55E11 /* Topic.storyboard in Resources */,
+				CB7BDA641DD2B4F500F5E591 /* topic_news_ipad.json in Resources */,
+				CBA1E5A31DD2A87000003970 /* contentview_hd_loading.gif in Resources */,
+				CB7BDA611DD2B4F500F5E591 /* mission_list.json in Resources */,
+				CB7BDA5D1DD2B4F500F5E591 /* appad_default.json in Resources */,
+				CB0A33651DD2B473008B2E5F /* dropCoin.mp3 in Resources */,
+				CB2E09101DD4746600F55E11 /* Me.storyboard in Resources */,
+				CB7BDA631DD2B4F500F5E591 /* theme.json in Resources */,
+				CB7BDA5C1DD2B4F500F5E591 /* achievement_animation.json in Resources */,
+				CB2335301DD1D84E00079DB9 /* Assets.xcassets in Resources */,
+				CB7BDA621DD2B4F500F5E591 /* theme-night.json in Resources */,
+				CB7BDA601DD2B4F500F5E591 /* LikeAnimationParameter.json in Resources */,
+				CB0A33601DD2B3C4008B2E5F /* content.css in Resources */,
+				CBA1E5A21DD2A87000003970 /* contentview_hd_loading_black@2x.gif in Resources */,
+				CB9D3CB21DD89AE100629CA2 /* News.storyboard in Resources */,
 				CBD89D451DD18881004F553E /* Main.storyboard in Resources */,
+				CB7BDA651DD2B4F500F5E591 /* topic_news.json in Resources */,
+				CB0A33611DD2B3C4008B2E5F /* ipad_content.css in Resources */,
+				CB2E090E1DD4745B00F55E11 /* Live.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +838,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083632E929C413EF1C408BF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STNetEaseNews/Pods-STNetEaseNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26AF1BEDC9541458F08E486B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35029BA4831043571DF3639D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STNetEaseNewsUITests/Pods-STNetEaseNewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DCB7520699FDAF33E690125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STNetEaseNewsTests/Pods-STNetEaseNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810019342D498005DBC52AAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STNetEaseNewsUITests/Pods-STNetEaseNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FD9D1A025416081191CB43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STNetEaseNews/Pods-STNetEaseNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE4127910DDDDDE668CC28F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8A68801AE011F67DE8416D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STNetEaseNewsTests/Pods-STNetEaseNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F218E4036E7663BB944BA988 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBD89CE61DD187B9004F553E /* Sources */ = {
@@ -606,6 +1036,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -656,6 +1087,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -683,30 +1115,40 @@
 		};
 		CBD89D151DD187B9004F553E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BD65D06B877F8BD3FE968B /* Pods-STNetEaseNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "STNetEaseNews/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.csrose.STNetEaseNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "STNetEaseNews/Supporting Files/STNetEaseNews-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CBD89D161DD187B9004F553E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475CB0916B6E13FF01ABB158 /* Pods-STNetEaseNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "STNetEaseNews/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.csrose.STNetEaseNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "STNetEaseNews/Supporting Files/STNetEaseNews-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CBD89D181DD187B9004F553E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112AF4C1D2BCD42714A57BA3 /* Pods-STNetEaseNewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -721,6 +1163,7 @@
 		};
 		CBD89D191DD187B9004F553E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FEF171E04E30514F8F9550 /* Pods-STNetEaseNewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -735,6 +1178,7 @@
 		};
 		CBD89D1B1DD187B9004F553E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B586A6F28558231CAF49FC /* Pods-STNetEaseNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = STNetEaseNewsUITests/Info.plist;
@@ -748,6 +1192,7 @@
 		};
 		CBD89D1C1DD187B9004F553E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9214C786749003AA7893CC2 /* Pods-STNetEaseNewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = STNetEaseNewsUITests/Info.plist;
@@ -778,6 +1223,7 @@
 				CBD89D161DD187B9004F553E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD89D171DD187B9004F553E /* Build configuration list for PBXNativeTarget "STNetEaseNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +1232,7 @@
 				CBD89D191DD187B9004F553E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD89D1A1DD187B9004F553E /* Build configuration list for PBXNativeTarget "STNetEaseNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +1241,7 @@
 				CBD89D1C1DD187B9004F553E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_STNetEaseNews {
+  umbrella header "Pods-STNetEaseNews-umbrella.h"
+
+  export *
+  module * { export * }
+}
