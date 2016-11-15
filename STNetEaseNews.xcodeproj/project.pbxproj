@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B2B12B48523DDCE7BEB2F54 /* Pods_STNetEaseNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35726B57F5AEB756BF73718C /* Pods_STNetEaseNewsUITests.framework */; };
+		CB0261841DDA956700749FD9 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0261831DDA956600749FD9 /* News.storyboard */; };
 		CB0A33601DD2B3C4008B2E5F /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = CB0A335E1DD2B3C4008B2E5F /* content.css */; };
 		CB0A33611DD2B3C4008B2E5F /* ipad_content.css in Resources */ = {isa = PBXBuildFile; fileRef = CB0A335F1DD2B3C4008B2E5F /* ipad_content.css */; };
 		CB0A33641DD2B473008B2E5F /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB0A33621DD2B473008B2E5F /* alert.wav */; };
@@ -26,7 +27,6 @@
 		CB7BDA631DD2B4F500F5E591 /* theme.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA591DD2B4F500F5E591 /* theme.json */; };
 		CB7BDA641DD2B4F500F5E591 /* topic_news_ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA5A1DD2B4F500F5E591 /* topic_news_ipad.json */; };
 		CB7BDA651DD2B4F500F5E591 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7BDA5B1DD2B4F500F5E591 /* topic_news.json */; };
-		CB9D3CB21DD89AE100629CA2 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9D3CB11DD89AE100629CA2 /* News.storyboard */; };
 		CBA1E5A11DD2A87000003970 /* contentview_hd_loading_black.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBA1E59E1DD2A87000003970 /* contentview_hd_loading_black.gif */; };
 		CBA1E5A21DD2A87000003970 /* contentview_hd_loading_black@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBA1E59F1DD2A87000003970 /* contentview_hd_loading_black@2x.gif */; };
 		CBA1E5A31DD2A87000003970 /* contentview_hd_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBA1E5A01DD2A87000003970 /* contentview_hd_loading.gif */; };
@@ -67,6 +67,7 @@
 		60FEF171E04E30514F8F9550 /* Pods-STNetEaseNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNewsTests/Pods-STNetEaseNewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7BD65D06B877F8BD3FE968B /* Pods-STNetEaseNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNews/Pods-STNetEaseNews.debug.xcconfig"; sourceTree = "<group>"; };
 		C9214C786749003AA7893CC2 /* Pods-STNetEaseNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STNetEaseNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STNetEaseNewsUITests/Pods-STNetEaseNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB0261831DDA956600749FD9 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		CB0A335B1DD2B36C008B2E5F /* iOSAppBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSAppBase.framework; path = "../iOSAppBase/iOSAppBase/build/Debug-iphoneos/iOSAppBase.framework"; sourceTree = "<group>"; };
 		CB0A335E1DD2B3C4008B2E5F /* content.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
 		CB0A335F1DD2B3C4008B2E5F /* ipad_content.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ipad_content.css; sourceTree = "<group>"; };
@@ -89,7 +90,6 @@
 		CB7BDA591DD2B4F500F5E591 /* theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = theme.json; sourceTree = "<group>"; };
 		CB7BDA5A1DD2B4F500F5E591 /* topic_news_ipad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news_ipad.json; sourceTree = "<group>"; };
 		CB7BDA5B1DD2B4F500F5E591 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
-		CB9D3CB11DD89AE100629CA2 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = News.storyboard; path = STNetEaseNews/Section/News/News.storyboard; sourceTree = SOURCE_ROOT; };
 		CBA1E59E1DD2A87000003970 /* contentview_hd_loading_black.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = contentview_hd_loading_black.gif; sourceTree = "<group>"; };
 		CBA1E59F1DD2A87000003970 /* contentview_hd_loading_black@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "contentview_hd_loading_black@2x.gif"; sourceTree = "<group>"; };
 		CBA1E5A01DD2A87000003970 /* contentview_hd_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = contentview_hd_loading.gif; sourceTree = "<group>"; };
@@ -229,6 +229,7 @@
 				CB2E09061DD4744B00F55E11 /* Controller */,
 				CB2E09071DD4744B00F55E11 /* Model */,
 				CB2E09081DD4744B00F55E11 /* View */,
+				CB0261831DDA956600749FD9 /* News.storyboard */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -445,7 +446,6 @@
 			children = (
 				CBD89CED1DD187B9004F553E /* AppDelegate.swift */,
 				CBD89D441DD18881004F553E /* Main.storyboard */,
-				CB9D3CB11DD89AE100629CA2 /* News.storyboard */,
 				CBD89D4A1DD18944004F553E /* LaunchScreen.storyboard */,
 			);
 			path = Main;
@@ -815,7 +815,7 @@
 				CB7BDA601DD2B4F500F5E591 /* LikeAnimationParameter.json in Resources */,
 				CB0A33601DD2B3C4008B2E5F /* content.css in Resources */,
 				CBA1E5A21DD2A87000003970 /* contentview_hd_loading_black@2x.gif in Resources */,
-				CB9D3CB21DD89AE100629CA2 /* News.storyboard in Resources */,
+				CB0261841DDA956700749FD9 /* News.storyboard in Resources */,
 				CBD89D451DD18881004F553E /* Main.storyboard in Resources */,
 				CB7BDA651DD2B4F500F5E591 /* topic_news.json in Resources */,
 				CB0A33611DD2B3C4008B2E5F /* ipad_content.css in Resources */,
